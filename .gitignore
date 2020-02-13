@@ -1,5 +1,4 @@
 .qmake.stash
-Makefile
 *.o
 libsimExtPluginSkeleton.1.0.0.dylib
 libsimExtPluginSkeleton.1.0.dylib
