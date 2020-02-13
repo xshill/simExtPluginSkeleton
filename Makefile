@@ -7,7 +7,7 @@ PLUGIN_NAME=PluginSkeleton
 PLUGIN_LIB=libsimExt$(PLUGIN_NAME).so
 PLUGIN_FILES=simExtPluginSkeleton.cpp
 
-$(PLUGIN_LIB).so: $(PLUGIN_FILES)
+$(PLUGIN_LIB): $(PLUGIN_FILES)
 	g++ -shared -fPIC -o $(PLUGIN_LIB) $(PLUGIN_FILES) $(COPPELIA_FILES) $(COPPELIA_INCLUDES)
 
 install: $(PLUGIN_LIB)
