@@ -4,6 +4,7 @@ libsimExtPluginSkeleton.1.0.0.dylib
 libsimExtPluginSkeleton.1.0.dylib
 libsimExtPluginSkeleton.1.dylib
 libsimExtPluginSkeleton.dylib
+*.so
 libsimExtPluginSkeleton.so
 libsimExtPluginSkeleton.so.1
 libsimExtPluginSkeleton.so.1.0
