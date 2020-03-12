@@ -6,6 +6,7 @@
     #define SIM_DLLEXPORT extern "C"
 #endif
 
+#define DEVELOPER_DATA_HEADER 92820
 
 // The 3 required entry points of the CoppelisSim plugin:
 SIM_DLLEXPORT unsigned char simStart(void* reservedPointer,int reservedInt);
